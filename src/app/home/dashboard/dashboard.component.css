@@ -1,0 +1,182 @@
+.parentdasboard{
+    width: 60vw;
+    background-color: white;
+    height: 100vh;
+    overflow-y: scroll;
+   justify-content: center;
+}
+.content{
+    padding: 2em 3em;
+}
+.inputdiv{
+    display: flex;
+}
+input {
+    height: 50px !important;
+    width: 100%;
+    border-radius: 56px;
+    background-color: #F6FAFF;
+    border: none;
+    outline: none;
+    padding-left:40px;
+   }
+  .search {
+    position: relative;
+    top: 44px;
+    left: 14px;
+    font-size: 28px;
+    color: #3D4D7A;
+  }
+  .overview{
+    font-size: 1.4em;
+    color: #475880;
+    font-weight: bold;
+    padding-top: 2em;
+}
+.box{
+    height: 100px;
+    width: 22%;
+    border-color: #E6EEFB;
+    border-radius: 5px;
+    border: 1px solid #E6EEFB;
+}
+.boxdiv{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between
+}
+.iconprice{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.price{
+    padding:0px 10px; 
+}
+.category{
+    padding:0px 10px; 
+}
+.bag{
+    color: #EB7D3C;
+    font-size: 1.1em;
+}
+.chart{
+    color: #AA6EE5;
+    font-size: 1.1em;
+}
+.cart{
+    color: #E74142;
+    font-size: 1.1em;
+}
+.users{
+    color: #89D4B1;
+    font-size: 1.1em;
+}
+.bagpercent{
+    color: #68BC9E;
+    font-weight: bold;
+    font-size: 1.0em;
+}
+.chartpercent{
+    color: #E85C79;
+    font-weight: bold;
+    font-size: 1.0em;
+}
+.price{
+    font-size: 1em;
+    font-weight: bold;
+    color: #3E5181;
+    padding-top: 0.2em;
+}
+.category{
+    font-size: 0.8em;
+    font-weight: bold;
+    color: #A5B3CD;
+    padding-top: 0.9em;
+}
+.graphbox{
+    /* height: 400px; */
+    width: 100%;
+    border-color: #E6EEFB;
+    border-radius: 5px;
+    border: 1px solid #E6EEFB;
+    margin-top: 2.2em;
+}
+.divChart{
+ display: block;
+ margin: 10px;
+ /* width:700px;
+ height:700px ;  */
+}
+.incomexpensediv{
+    display: flex;
+}
+.income{
+    font-size: 1.1em;
+    font-weight: bold;
+    color: #475880;
+    padding-left: 17px;
+}
+.expense{
+    font-size: 1.1em;
+    font-weight: bold;
+    color: #95A3BF;
+    padding-left: 17px;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+}
+.years{
+    border:1px solid #cfe2ff;
+    outline: none;
+    border-radius: 5px;
+}
+th{
+    background-color: #F6FAFF;
+    justify-content: space-between;
+    text-align: left;
+    padding-left: 15px;
+    color: #808DAF;
+}
+table{
+    width: 100%;
+    /* margin-bottom: 40px; */
+}
+td{
+    justify-content: center; 
+    text-align: left;
+    padding-top: 15px;
+    padding-left: 15px;
+    color: #2B3963;
+    font-weight: bold;
+    font-size: 0.9em;
+}
+img{
+  width: 40px;
+}
+.nameid{
+    display: grid;
+}
+.prod{
+    font-size: 1.1em;
+    font-weight: bold;
+    padding: 15px;
+    color: #273967;
+}
+.prodid{
+    color: #909BB5;
+}
+::-webkit-scrollbar {
+    width: 0.5em;
+    /* height: 22em */
+}
+::-webkit-scrollbar-button {
+    background: #bdd5ff
+}
+ ::-webkit-scrollbar-track-piece {
+    background: #3F7ADE
+}
+::-webkit-scrollbar-thumb {
+    background: #eee
+} 

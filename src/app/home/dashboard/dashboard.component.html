@@ -1,0 +1,113 @@
+<div class="parentdasboard">
+    <div class="content">
+       <div class="inputdiv">
+          <!-- <fa-icon [icon]="faSearch" class="search"></fa-icon> -->
+          <input  type="text"  placeholder="Search for Products"  #input/>
+        </div>
+        <div class="overview">Overview</div>
+
+        <div class="boxdiv">
+          <div class="box">
+            <div class="iconprice">
+             <fa-icon [icon]="faShoppingBag" class="bag"></fa-icon>
+             <div class="bagpercent">+24%</div>
+            </div> 
+            <div class="price">$27,340.00</div>
+            <div class="category">Total Sales</div>
+          </div>
+
+          <div class="box">
+            <div class="iconprice">
+             <fa-icon [icon]="faChartPie" class="chart"></fa-icon>
+             <div class="chartpercent">-32%</div>
+            </div> 
+            <div class="price">$27,340.00</div>
+            <div class="category">Total Expenses</div>
+          </div>
+
+          <div class="box">
+            <div class="iconprice">
+             <fa-icon [icon]="faUsers" class="users"></fa-icon>
+             <div class="bagpercent">+48%</div>
+            </div> 
+            <div class="price">$18,260.00</div>
+            <div class="category">Total Visitors</div>
+          </div>
+
+          <div class="box">
+            <div class="iconprice">
+             <fa-icon [icon]="faShoppingCart" class="cart"></fa-icon>
+             <div class="chartpercent">+12%</div>
+            </div> 
+            <div class="price">$11,340.00</div>
+            <div class="category">Total Orders</div>
+          </div>
+        </div>
+
+
+        <div class="graphbox">
+            <div class="divChart">
+
+              <div class="row">
+              <div class="incomexpensediv">
+                <div class="income">Income</div>
+                <div class="expense">Expense</div>
+              </div>
+              <select name="years" class="years">
+                <option value="volvo">2021</option>
+                <option value="saab">2020</option>
+                <option value="opel">2019</option>
+                <option value="audi">2018</option>
+              </select>
+              </div>
+              <canvas id="canvas" ></canvas>
+            </div>   
+        </div>
+
+        <div class="graphbox">
+          <div class="prod">Popular Products</div>
+          <table>
+            <tr>
+              <th>Photos</th>
+              <th>Name</th>
+              <th>Date</th>
+              <th>Category</th>
+              <th>Brand</th>
+              <th>Price</th>
+              <th>Status</th>
+            </tr>
+            <tr class="dabledata">
+              <td><img src="./assets/headphones.jpg"/></td>
+              <div class="nameid">
+                <td>Headphone</td>
+                <td class="prodid">#280464674</td>
+              </div>
+                <td>Aug 12,2020</td>
+                <td>Gadget</td>
+                <td>Mito</td>
+                <td>$99.89</td>
+              <div class="nameid">
+                <td>Available</td>
+                <td class="prodid">18k viewers</td>
+              </div>  
+            </tr>
+            <tr>
+              <td><img src="./assets/headphones.jpg"/></td>
+              <div class="nameid">
+                <td>Smartphone</td>
+                <td class="prodid">#280464674</td>
+              </div>
+                <td>Aug 12,2020</td>
+                <td>Fashion</td>
+                <td>Swallow</td>
+                <td>$99.89</td>
+              <div class="nameid">
+                <td>Available</td>
+                <td class="prodid">18k viewers</td>
+              </div>  
+             
+            </tr>
+          </table>
+        </div>  
+    </div>
+</div>  
